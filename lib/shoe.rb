@@ -9,6 +9,7 @@ class Shoe
     @brand = brand
     BRANDS << @brand
     BRANDS.uniq
+      binding.pry
   end
 
   def cobble
@@ -16,7 +17,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  binding.pry
   
 end
 
