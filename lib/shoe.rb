@@ -9,7 +9,6 @@ class Shoe
     @brand = brand
     BRANDS << @brand
     BRANDS << BRANDS.uniq
-      binding.pry
   end
 
   def cobble
