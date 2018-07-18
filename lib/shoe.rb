@@ -18,7 +18,5 @@ class Shoe
   
   #binding.pry
   
-  puts "sdsadasd"
-  
 end
 
