@@ -18,7 +18,7 @@ class Shoe
     BRANDS << @brand
   end
   
-  binding.pry
+  #binding.pry
   
   puts "sdsadasd"
   
