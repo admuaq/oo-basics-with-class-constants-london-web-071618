@@ -6,10 +6,9 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    cont = []
     @brand = brand
-    cont << @brand
-    BRANDS << cont.uniq
+    BRANDS << @brand
+    BRANDS = BRANDS.uniq
     #binding.pry
   end
 
