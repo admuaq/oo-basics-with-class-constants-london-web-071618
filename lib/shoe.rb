@@ -11,8 +11,6 @@ class Shoe
       break
     end 
     BRANDS << @brand
-  end
-    
     binding.pry
   end
 
