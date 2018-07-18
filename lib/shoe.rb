@@ -9,6 +9,7 @@ class Shoe
     @brand = brand
     if !BRANDS.detect(@brand)
       BRANDS << @brand
+    end 
   end
 
   def cobble
