@@ -9,6 +9,7 @@ class Shoe
     @brand = brand
     !if BRANDS.find(@brand)
     BRANDS << @brand
+  end
     
     binding.pry
   end
